@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_darfy</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/40c76d7c-5ccf-4c21-b9b5-b45573b98eb5/resourceGroups/az-group-rg/providers/microsoft.insights/components/az-webapp-darfy-vs2024</ApplicationInsightsResourceId>
+    <UserSecretsId>d7f87f8a-91cf-4564-a208-bb2fc9fde39f</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>
